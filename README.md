@@ -17,3 +17,5 @@ Model Trains info based on scales: HO, N, Z, ect
 mc addon help: item ids // base code examples
 
 Art page for Kara?
+
+HomeBound 2 ideas and pitch
