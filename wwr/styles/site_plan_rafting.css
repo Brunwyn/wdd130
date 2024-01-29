@@ -1,29 +1,30 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');*/
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --background-color: #F6F4F5;
+  --primary-color: #0F8B8D   ;
+  --secondary-color: #0A5C5C ;
+  --accent1-color: #FFC533;
+  --accent2-color: #FF961F;
 
-  /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  /* change the values below to your chosen font(s): "IM Fell French Canon" Lato, Helvetica, sans-serif */
+  --heading-font: Georgia;
+  --paragraph-font: "Times New Roman", Times, serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: black;  /* headlines on a white background; #396E94 */ 
+  --headline-color-on-color: #FFFFFF; /* headlines on a colored background; white */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background; #396E94 */ 
+  --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background; white*/ 
+  --paragraph-background-color: #000000; /* #396E94 */
+  --nav-link-color: #0F8B8D; /* #396E94 */
+  --nav-background-color: #FFC533; /* #D4AC0D */
+  --nav-hover-link-color: #F6F4F5; /* white */
+  --nav-hover-background-color: #0F8B8D; /* #396E94 */
 }
 
 
