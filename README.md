@@ -15,6 +15,8 @@ COLOR THEME CHOOSER // https://Coolors.co
 
 use live page to see changes // https://brunwyn.github.io/wdd130/
 
+or # https://brunwyn.github.io/wdd130/wwr/site_plan_rafting.html
+
 - - - - - - - - - - -
 BrainStorm Ideas:
   Model Trains info based on scales: HO, N, Z, ect
