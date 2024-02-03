@@ -1,0 +1,25 @@
+body {
+    background-color: #aeb3ab;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+main {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+h1 {
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+
+
+
+
+img {
+    width: 200px;
+    height: 25%;
+}
