@@ -1,0 +1,70 @@
+/* ice_w6.css */
+/* Reset default margin and padding */
+
+body {
+    font-family: 'Times New Roman';
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2500px;
+    width: 2500px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 2000px;
+    height: 1000px;
+    background-color: #ffffff; 
+}
+
+h1 {
+    grid-column: 1/11;
+    grid-row: span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: #000000;
+    background-color: rgba(0, 255, 255, 0.164);
+}
+
+#white_left {
+    background-color: #ecebeb;
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#white_left img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Add this line to center the image horizontally */
+    margin: 0 auto; /* Add this line to center the image vertically */
+    z-index: 3;
+}
+
+#grey_right {
+    background-color: #bebebe;
+    grid-column: 6 / span 5;
+    grid-row: 1/ span 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#red {
+    margin-top: 450px;
+    color: #5e1f1f;
+    font-size: 6em;
+    font-weight: bold;
+    letter-spacing: 50px;
+    z-index: 3;
+}

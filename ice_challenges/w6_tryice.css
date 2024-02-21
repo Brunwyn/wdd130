@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define the grid layout */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 columns */
+    grid-template-rows: repeat(5, 1fr); /* 5 rows */
+    gap: 0px; /* Gap between grid items */
+    height: 300px; /* Adjust as needed */
+    width: 600px; /* Full width */
+}
+
+/* Light grey box */
+.light-grey {
+    background-color: lightgrey;
+    grid-column: 1 / span 5; /* Start at column 1, span 5 columns */
+    grid-row: 1 / span 5; /* Start at row 1, span 5 rows */
+}
+
+/* Dark grey box */
+.dark-grey {
+    background-color: darkgrey;
+    grid-column: 6 / span 5; /* Start at column 6, span 5 columns */
+    grid-row: 1 / span 5; /* Start at row 1, span 5 rows */
+    position: relative;
+}
+
+/* Position the cherries text */
+.cherries-text {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #6b1c29;
+}
+
+/* Brown box */
+.brown {
+    background-color: brown;
+    grid-column: 1 / span 10; /* Start at column 1, span 10 columns */
+    grid-row: 2; /* Row 2 */
+    z-index: 1;
+}
+
+/* Purple box */
+.purple-box {
+    background-color: purple;
+    /* Adjust position as needed */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 2; /* Ensure it's above the brown box */
+}
