@@ -20,6 +20,9 @@
     background-color: lightgrey;
     grid-column: 1 / span 5; /* Start at column 1, span 5 columns */
     grid-row: 1 / span 5; /* Start at row 1, span 5 rows */
+    display: flex; /* Add this line */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
 }
 
 /* Dark grey box */
@@ -40,22 +43,23 @@
     color: #6b1c29;
 }
 
-/* Brown box */
+/* text tart and sweet */
 .brown {
-    background-color: brown;
     grid-column: 1 / span 10; /* Start at column 1, span 10 columns */
     grid-row: 2; /* Row 2 */
-    z-index: 1;
+    z-index: 2;
+    transform: translateY(25%);
+    display: flex; /* Add this line */
+    justify-content: center; /* Horizontally center the image */
+    align-items: center; /* Vertically center the image */
+    color: black;
+    font-weight: bold; /* Make the text bold */
+    font-size: 3.8em; /* Increase the font size */
+    letter-spacing: 16px; /* Adjust letter spacing */
 }
 
 /* Purple box */
-.purple-box {
-    background-color: purple;
-    /* Adjust position as needed */
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    width: 100px;
-    height: 100px;
-    z-index: 2; /* Ensure it's above the brown box */
+.cherry_img {
+    width: 80%;
+    z-index: 1; /* Ensure it's above the brown box */
 }
