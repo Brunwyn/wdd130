@@ -5,9 +5,9 @@ https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
 use [ ! ] in vs code to give a basic outline of the code .html
 
-
 html validator // https://validator.w3.org/
 
+wireframe // https://wireframe.cc/
 
 Lightweight Wireframe Creator // https://Wireframe.cc
 
@@ -19,10 +19,7 @@ or # https://brunwyn.github.io/wdd130/wwr/site_plan_rafting.html
 
 - - - - - - - - - - -
 BrainStorm Ideas:
-  Model Trains info based on scales: HO, N, Z, ect
 
-  mc addon help: item ids // base code examples
-
-  Art page for Kara?
+  Art page portfolio for Sister?
 
   HomeBound 2 ideas and pitch
