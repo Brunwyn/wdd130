@@ -39,8 +39,31 @@ header {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 body {
-    background-color: var(--body-backcolor); 
+    background-color: var(--body-backcolor);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid var(--barback-backcolor);
+    box-shadow: 5px 5px 7px #858585;
+}
+h2 {
+    margin: 0;
+}
+
+footer {
+    background-color: var(--footer-backcolor);
+    padding-top: 15px;
+    margin-top: 200px;
 }
 footer a {
     color: var(--footer-a-txtcolor);
@@ -55,8 +78,8 @@ footer p a:hover {
 footer a:hover {
     color: var(--footer-a-hover-txtcolor);
 }
-footer {
-    background-color: var(--footer-backcolor);
+footer .social img {
+    padding-top: 15px;
 }
 
 
@@ -64,6 +87,7 @@ nav a {
     text-align: center;
     color: var(--nav-a-txtcolor);
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: var(--nav-a-hover-backcolor);
@@ -71,6 +95,8 @@ nav a:hover {
 }
 .home-title {
     color: var(--home-title-txtcolor);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: var(--h4-txtcolor);
@@ -89,8 +115,12 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 
@@ -98,25 +128,30 @@ main section {
     background-color: var(--book-join-backcolor);
     color: var(--book-join-txtcolor);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: var(--book-join-hover-backcolor);
     color: var(--book-join-hover-txtcolor);
 }
+.msg{
+    background-color: var(--msg-backcolor);
+    line-height: 1.5em;
+    padding: 35px;
+}
 .msg h2 {
     color: var(--msg-h2-txtcolor);
 }
 .msg p {
-    color: var(--msg-p-txtcolor)
+    color: var(--msg-p-txtcolor);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
-.msg{
-    background-color: var(--msg-backcolor);
-}
-
 
 #barback {
     height: 725px;
     background-color: var(--barback-backcolor);
 }
-
-
