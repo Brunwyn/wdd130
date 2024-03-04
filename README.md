@@ -1,4 +1,8 @@
-VS Code Help // https://docs.microsoft.com
+URL FOR TURN IN
+https://brunwyn.github.io/wdd130/wwr/index.html
+
+VS Code Help
+https://docs.microsoft.com
 
 VS Code Windows Shortcut Keys
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -12,8 +16,6 @@ wireframe // https://wireframe.cc/
 Lightweight Wireframe Creator // https://Wireframe.cc
 
 COLOR THEME CHOOSER // https://Coolors.co
-
-https://brunwyn.github.io/wdd130/wwr/index.html
 
 PLACE HOLDER IMAGES FOR HTML
 https://placehold.co/
