@@ -15,6 +15,11 @@ COLOR THEME CHOOSER // https://Coolors.co
 
 https://brunwyn.github.io/wdd130/wwr/index.html
 
+PLACE HOLDER IMAGES FOR HTML
+https://placehold.co/
+https://placehold.co/600x400
+https://placehold.co/400
+
 - - - - - - - - - - -
 BrainStorm Ideas:
 
