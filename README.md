@@ -1,25 +1,21 @@
-VS Code Help // https://docs.microsoft.com
-
-VS Code Windows Shortcut Keys
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+URL FOR TURN IN
+https://brunwyn.github.io/wdd130/wwr/index.html
 
 use [ ! ] in vs code to give a basic outline of the code .html
 
-html validator // https://validator.w3.org/
+VS Code Help https://docs.microsoft.com
 
-wireframe // https://wireframe.cc/
+VS Code Windows Shortcut Keys https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
-Lightweight Wireframe Creator // https://Wireframe.cc
+html validator https://validator.w3.org/
 
-COLOR THEME CHOOSER // https://Coolors.co
+wireframe https://wireframe.cc/
 
-use live page to see changes // https://brunwyn.github.io/wdd130/
+Lightweight Wireframe Creator https://Wireframe.cc
 
-or # https://brunwyn.github.io/wdd130/wwr/site_plan_rafting.html
+COLOR THEME CHOOSER https://Coolors.co
+
+PLACE HOLDER IMAGES FOR HTML https://placehold.co/ https://placehold.co/600x400 https://placehold.co/400
 
 - - - - - - - - - - -
-BrainStorm Ideas:
-
-  Art page portfolio for Sister?
-
-  HomeBound 2 ideas and pitch
+Personal page will be = HomeBound 2 ideas and pitch
