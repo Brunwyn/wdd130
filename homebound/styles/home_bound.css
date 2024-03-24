@@ -86,6 +86,16 @@ main{
     margin-bottom: 30px;
     justify-content: center;
 }
+
+#story_card{
+    margin-top: 50px;
+}
+#trailer_card{
+    margin: 50px;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
 .stylized_tree{
     height: 150px;
 }
@@ -116,7 +126,7 @@ main{
 footer {
     background-color: var(--footer-backcolor);
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center
