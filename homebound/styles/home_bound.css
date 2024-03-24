@@ -1,4 +1,31 @@
+:root {
+    /* set fonts and backups */
+    --heading-font: Georgia;
+    --paragraph-font: "Times New Roman", Times, serif;
 
+    /* background colors */
+    --header-backcolor: #10456ae1;
+    --body-backcolor: #F2E7CF;
+    --footer-backcolor: #10456ae1;
+    --nav-a-hover-backcolor: #808080;
+    --book-join-backcolor: #8f8e8e;
+    --book-join-hover-backcolor: #424141;
+    --barback-backcolor: #DBBE80; /* #dec48a paper save look */
+    --msg-backcolor: #f66d28fa;
+    
+    /* forground colors is text colors */
+    --nav-a-txtcolor: #000000;
+    --nav-a-hover-txtcolor: #000000;
+    --home-title-txtcolor: #000000;
+    --h4-txtcolor: #000000;
+    --book-join-txtcolor: #000000;
+    --book-join-hover-txtcolor: #eeeaea;
+    --msg-h2-txtcolor: #000000;
+    --msg-p-txtcolor: #000000;
+    --footer-txtcolor: #000000;
+    --footer-a-txtcolor: #000000;
+    --footer-a-hover-txtcolor: #b82828;
+}
 
 
 #content {
@@ -6,29 +33,107 @@
     margin: 0 auto;
 }
 
-header{
-    max-height: 80px;
-    background-color: #283618;
-    padding: 20px; /* Add some padding for spacing */
-    color: white; /* Set text color to white (optional) */
-    overflow: hidden; /* Clear any floated elements */
-    display: flex; /* Use flexbox for vertical centering */
-    align-items: center; /* Vertically center the content */
+header {
+    background-color: var(--header-backcolor);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 .logo {
     width: 80px;
-    float: left;
-    border: 1px solid black;
     border-radius: 50%;
-    
 }
-#header_nav{
-    float: left;
-    margin-left: 20px;
-    margin-top: 40px;
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-align: center;
+    color: var(--nav-a-txtcolor);
+    text-decoration: none;
+    padding: 0 35px;
+}
+nav a:hover {
+    background-color: var(--nav-a-hover-backcolor);
+    color: var(--nav-a-hover-txtcolor);
+}
+
 
 body{
     background-color: #c7c7c7;
+    display: flex;
+    margin: auto;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+#info_cards{
+    grid-column: 2/3;
+}
+#title{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.stylized_tree{
+    height: 150px;
+}
+#among_trees_ref{
+    height: 400px;
+}
+#among_trees_logo_card{
+    position: relative;
+}
+#among_trees_link{
+    position: absolute; /* Position the link absolutely within the container */
+    bottom: 0; /* Align the link to the bottom of the container */
+    left: 0; /* Align the link to the left edge of the container */
+    margin: 10px; /* Add some spacing around the link */
+    background-color: #424141f9;
+    color: #000000;
+}
+#among_trees_link:hover{
+    color: #b82828;
+}
+
+.bold{
+    font-size: 1.5em;
+}
+
+
+
+footer {
+    background-color: var(--footer-backcolor);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+footer a {
+    color: var(--footer-a-txtcolor);
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a:hover {
+    color: var(--footer-a-hover-txtcolor);
+}
+footer .social img {
+    padding-top: 15px;
+}
