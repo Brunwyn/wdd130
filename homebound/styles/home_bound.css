@@ -96,6 +96,7 @@ main{
 
 div.Home_grid {
     grid-column: 2/5;
+    margin-top: 75px;
 }
 
 
