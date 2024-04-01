@@ -36,6 +36,10 @@
     margin: 0 auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* Header works */
 header {
     background-color: #10456ae1;
@@ -76,18 +80,21 @@ nav a {
     border: 1px solid #00000082;
     padding-top: .5%;
     padding-bottom: .5%;
+    border-radius: 5px;
 }
 nav a:hover {
-    background-color: #115b9082 ;
+    background-color: #156aa782 ;
     color: var(--nav-a-hover-txtcolor);
+    border-radius: 20px;
 }
 /* Header works */
 
 
 body{
-    background-color: #c7c7c7;
+    background-color: #dddddd;
     display: flex;
     margin: auto;
+
 }
 
 main{
@@ -109,6 +116,7 @@ div.Home_grid {
     grid-column: 1/6;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.288);
 }
 #title{
     height: 100%;
@@ -119,29 +127,54 @@ div.Home_grid {
 
 .bold{
     font-size: 1.5em;
+    margin-top: 2%;
+    
 }
-
+.secondary{
+    margin-top: 0;
+    margin-left: 20px;
+}
+.secondary_bold{
+    margin-bottom: 10px;
+}
+#story_img{
+    margin-left: 20px;
+}
 .content_cards {
     background-color: #aba9a9;
     border-radius: 10px;
-    margin-top: 2%;
+    margin-top: 6%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.288);
 
-    padding-top: 2px;
+    padding-top: 2%;
     padding-bottom: 2px;
-    padding-left: 2%;
+    padding-left: 3%;
     padding-right: 2%;
+    
+    font-size: 1.5em;
 }
-
+.flat_txt{
+    padding-left: 30px;
+}
+li{
+    margin-bottom: 3%;
+}
 
 
 .stylized_tree{
     height: 150px;
 }
-#among_trees_ref{
-    height: 400px;
+#treebois{
+    list-style-type: none;
 }
 #among_trees_logo_card{
     position: relative;
+    padding-right: 40px;
+    height: auto;
+}
+#among_trees_p{
+    margin-bottom: 3%;
+    margin-top: 0;
 }
 #among_trees_link{
     position: absolute;
@@ -155,10 +188,13 @@ div.Home_grid {
     color: #b82828;
 }
 
+.content_cards p a{
+    color: #424141;
+}
+.content_cards p a:hover {
+    color: #b82828;
+}
 
-
-
-/* Header works */
 footer {
     background-color: var(--footer-backcolor);
     padding: 25px 50px;
@@ -186,4 +222,5 @@ footer .social img {
     border: 1px solid #0000002a;
     /*padding-top: 15px;*/
 }
-/* Header works */
+
+/* Media Query */
