@@ -4,16 +4,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #content {
-    max-width: 1800px;
-    width: 1800px;
+    max-width: 1700px;
+    width: 1600px;
     margin: 0 auto;
 }
 header {
-    background-color: #10456ae1;
+    background-color: #f3921bde;
     display: grid;
-    
-    /* position: fixed; !!! this broke the Hearder !!!*/
-    width: 100%;
+    width: 95%;
     height: 115px;
     backdrop-filter: blur(2px) saturate(50%);
     position: sticky;
@@ -21,11 +19,11 @@ header {
     z-index: 100;
 }
 nav {
-    grid-template-columns: 150px auto;
+    grid-template-columns: 120px auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
     
 }
 nav a {
