@@ -1,35 +1,3 @@
-:root {
-    /* pulled in color codes from wrr for testing */
-
-    /* set fonts and backups */
-    --heading-font: Georgia;
-    --paragraph-font: "Times New Roman", Times, serif;
-
-    /* background colors */
-    --header-backcolor: #10456ae1; /* #2f3f1d*/
-    --body-backcolor: #F2E7CF;
-    --footer-backcolor: #10456ae1;
-    --nav-a-hover-backcolor: #808080;
-    --book-join-backcolor: #8f8e8e;
-    --book-join-hover-backcolor: #424141;
-    --barback-backcolor: #DBBE80; /* #dec48a paper save look */
-    --msg-backcolor: #f66d28fa;
-    
-    /* forground colors is text colors */
-    --nav-a-txtcolor: #000000;
-    --nav-a-hover-txtcolor: #000000;
-    --home-title-txtcolor: #000000;
-    --h4-txtcolor: #000000;
-    --book-join-txtcolor: #000000;
-    --book-join-hover-txtcolor: #eeeaea;
-    --msg-h2-txtcolor: #000000;
-    --msg-p-txtcolor: #000000;
-    --footer-txtcolor: #000000;
-    --footer-a-txtcolor: #000000;
-    --footer-a-hover-txtcolor: #b82828;
-}
-
-
 #content {
     max-width: 1800px;
     width: 1800px;
@@ -68,8 +36,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.5em;
-    
 }
 
 nav a {
@@ -81,6 +47,9 @@ nav a {
     padding-top: .5%;
     padding-bottom: .5%;
     border-radius: 5px;
+    font-family: georgia, serif;
+    font-weight: lighter;
+    font-size: 1.7em;
 }
 nav a:hover {
     background-color: #156aa782 ;
@@ -94,7 +63,9 @@ body{
     background-color: #dddddd;
     display: flex;
     margin: auto;
-
+    font-family:"Times New Roman", Times, serif;
+    font-weight: lighter;
+    font-size: 1em;
 }
 
 main{
@@ -123,12 +94,17 @@ div.Home_grid {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
+    font-family: georgia, serif;
+    font-weight: lighter;
+    font-size: 2em;
 }
 
 .bold{
     font-size: 1.5em;
     margin-top: 2%;
-    
+    font-family: georgia, serif;
+    font-weight: lighter;
+    font-size: 2em;    
 }
 .secondary{
     margin-top: 0;
